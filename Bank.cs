@@ -81,7 +81,7 @@ class Program
     static void Main()
     {
         Bank myBank = new Bank(101);
-        Customer customer1 = new Customer("John Doe", 5000, 123456);
+        Customer customer1 = new Customer("John", 5000, 123456);
 
         while (true)
         {
